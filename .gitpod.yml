@@ -1,12 +1,7 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-tasks:
-  - init: echo 'init script' # runs during prebuild
-    command: echo 'start script'
-
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 3000
-    onOpen: open-preview
-
 image:
   file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - dart-code.dart-code@3.20.1:gKwMOzlkrgxrb7aPrMdQ8w==
+    - dart-code.flutter@3.20.0:fCUgJ2byoDmsmQf0Dq12+g==
